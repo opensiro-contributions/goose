@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-19T175625Z--goose-resume-allow",
+  "recorded_at": "2026-11-19T17:56:25Z",
+  "actor": "OpenSiro owner (explicit RESUME/ALLOW in current conversation)",
+  "kind": "DECISION",
+  "decision": "RESUME/ALLOW",
+  "original_repository": "aaif-goose/goose",
+  "working_fork": "opensiro-contributions/goose",
+  "previous_owner_control": "PAUSE",
+  "owner_control": "ALLOW",
+  "attention": "DORMANT",
+  "case_id": "goose-subagent-current-management-20261119",
+  "evidence_urls": [],
+  "next_action": "Record source-pinned S3 case on opensiro/meta only; public communications and code work not authorized"
+}

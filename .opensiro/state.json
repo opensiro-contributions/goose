@@ -3,7 +3,7 @@
   "original_repository": "aaif-goose/goose",
   "working_fork": "opensiro-contributions/goose",
   "attention": "DORMANT",
-  "owner_control": "PAUSE",
-  "last_event_id": null,
-  "updated_at": "2026-11-19T13:14:00Z"
+  "owner_control": "ALLOW",
+  "last_event_id": "2026-11-19T175625Z--goose-resume-allow",
+  "updated_at": "2026-11-19T17:56:25Z"
 }
