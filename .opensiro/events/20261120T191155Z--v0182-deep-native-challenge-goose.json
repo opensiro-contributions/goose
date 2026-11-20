@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "20261120T191155Z--v0182-deep-native-challenge-goose",
+  "recorded_at": "2026-11-20T19:11:55Z",
+  "actor": "OpenSiro AI-assisted Upstream #58 deeper source review",
+  "kind": "CHECKPOINT",
+  "decision": "SAME_CASE_SOURCE_CHALLENGE; prior proposal verdict preserved; new native-source falsifiers and/or narrow baseline tests only",
+  "original_repository": "aaif-goose/goose",
+  "original_head_observed": "36b29113aff691e1a46a21a5c25900824caf9949",
+  "case_id": "goose-adversary-audit-20261119",
+  "protocol_version": "0.18.2",
+  "source_first_checkpoint": "https://github.com/opensiro/upstream/issues/58#issuecomment-7047329680",
+  "validation": "structural and publication template validators to be rerun on this exact case; no C implementation or C-native acceptance",
+  "publication": "NOT_PUBLISHED"
+}
