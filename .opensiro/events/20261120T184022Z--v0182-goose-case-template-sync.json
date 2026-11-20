@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "20261120T184022Z--v0182-goose-case-template-sync",
+  "recorded_at": "2026-11-20T18:40:22.239Z",
+  "actor": "OpenSiro AI-assisted Upstream #58 bounded source-first follow-up",
+  "kind": "CHECKPOINT",
+  "decision": "SAME_CASE_TEMPLATE_REPAIRED; GO / NEEDS_EVIDENCE unchanged; native NOT_RUN",
+  "original_repository": "aaif-goose/goose",
+  "original_head_observed": "ca949ba94c0d59679c7e7eeccfaa277076e5b9e9",
+  "case_id": "goose-adversary-audit-20261119",
+  "source_first_checkpoint": "https://github.com/opensiro/upstream/issues/58#issuecomment-7047329680",
+  "validation": "Both v0.18.2 structural and template validators PASS before persistence; native tests NOT_RUN",
+  "publication": "NOT_PUBLISHED",
+  "next_action": "Validate Stop-hook cap, source-grounded post-operation evidence and first-party completed-outcome feedback before any product PR"
+}

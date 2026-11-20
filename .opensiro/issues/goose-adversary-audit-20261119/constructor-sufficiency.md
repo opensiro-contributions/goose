@@ -1,52 +1,96 @@
-# Goose — developer C-sufficiency contract for independent S3* audit
+# Goose — source-native S3* C-construction technical contract
+
+**Canonical storage:** opensiro-contributions/goose@opensiro/meta:.opensiro/issues/goose-adversary-audit-20261119/constructor-sufficiency.md.
+**Level 1 / Human decision Issue:** [issue.md](issue.md).
+**Canonical decision receipt:** [roadmap.md](roadmap.md), authoritative for Index vector, case pins, priority and verdict.
+**Stage:** PLAN_ONLY / HYPOTHESIS, current v0.18.2 template synchronization; **DRAFT — NOT PUBLISHED**. Native validation NOT_RUN.
+
+## 1. Function-specific construction boundary and methodology checks
+
+**Source and mode boundary:** Original aaif-goose/goose at current original HEAD ca949ba94c0d59679c7e7eeccfaa277076e5b9e9, first-party entrypoints [crates/goose/src/agents/state_machine/session.rs](https://github.com/aaif-goose/goose/blob/ca949ba94c0d59679c7e7eeccfaa277076e5b9e9/crates/goose/src/agents/state_machine/session.rs) and [crates/goose/src/agents/platform_extensions/summon.rs](https://github.com/aaif-goose/goose/blob/ca949ba94c0d59679c7e7eeccfaa277076e5b9e9/crates/goose/src/agents/platform_extensions/summon.rs). The canonical historical research HEAD remains c77f95b9c5c4242cd1cb83669523d2231da75352; accepted historical Index https://github.com/opensiro/vsm-harness-index/blob/8b6039a92b39e9ac9e02af8c9a99513d632c3684/assessments/go/goose.md reviewed at 50666ae0b9a51e260b52b7efbab2e4e020346e94. The supported local first-party runtime and its explicit optional modes are the unit of analysis. Original project's own CI, third-party provider, external management and parent owner are not silently counted as agent functions.
 
 **Target transition:** S3*=— -> S3*=C
+
+**Six-function dependencies (S1/S2/S3/S3*/S4/S5):** S1 and S3 are already historically agent-owned. S3* is the independent evidence decision, not token permission or S3 operation itself; S4/S5 remain outside this limited proposal. Reuse historical S1=A · S2=— · S3=A · S3*=— · S4=— · S5=— without changing the Index. Supporting runtime permissions and transport are not themselves autonomous decisions.
+
+**Function witness:** An agent concludes a task succeeded even though the supporting tool trace or independent postcondition is missing, partial, stale or inconsistent. The legitimate independent choice and owner: a separately configured audit actor adjudicates whether a finished Goose turn's claimed real-world task outcome is supported by authoritative tool facts. On independent evidence: accept an actually verified outcome, require bounded source-backed rework, or escalate as explicitly unverified without inventing success. The effect and feedback must be The first-party turn finalization and next action must represent REWORK/UNVERIFIED accurately; the auditor sees the effect and can never silently certify its own evidence..
+
+**Counterfactual owner test:** Remove the optional developer-composed S3* decision actor but keep current source machinery: Goose first-party oi-kit/state-machine owns tool execution/finalization and summon runs isolated subagent context. The historical source review also identifies AdversaryInspector and Stop hooks that govern pre-tool security, not independently verified post-operation outcomes. The specific extra choice would then be missing: A subagent's separate context and a pre-tool security filter are not proof of materially independent post-operation evidence review. Existing Stop denial may be capped; hook-only control cannot be presumed fail-closed.. A mere generic hook or another model call does not count.
+
+**Possible methodological negative control:** If baseline first-party code already closes the exact owner/choice/effect/return at the supported boundary, or only a human parent may choose, report native equivalence and withdraw the new C design rather than regrade.
+
+**Contributor / maintainer priorities:** NOT_STATED as approval of this exact VSM construction; third-party product direction remains the maintainer's.
+
+## 2. Source-pinned baseline and parallel native Track A / on-top Track B
+
+**Original native workflow:** Goose first-party oi-kit/state-machine owns tool execution/finalization and summon runs isolated subagent context. The historical source review also identifies AdversaryInspector and Stop hooks that govern pre-tool security, not independently verified post-operation outcomes. First-party pinned source: [crates/goose/src/agents/state_machine/session.rs](https://github.com/aaif-goose/goose/blob/ca949ba94c0d59679c7e7eeccfaa277076e5b9e9/crates/goose/src/agents/state_machine/session.rs) and [crates/goose/src/agents/platform_extensions/summon.rs](https://github.com/aaif-goose/goose/blob/ca949ba94c0d59679c7e7eeccfaa277076e5b9e9/crates/goose/src/agents/platform_extensions/summon.rs).
+
+**Closest existing solution:** Compare existing inspection and Stop-hook behavior first; prefer a bounded native hook if it truly enforces the same observable post-turn outcome.
+
+**Relevant original Issues/PRs:** https://github.com/aaif-goose/goose/issues/9708 (CLOSED issue about ground-truth completion); historical #13271 security visibility was a different concern. Original PR status must be checked again before any code change.. Labels such as OPEN or CLOSED are current at this follow-up only where checked; unverified heads are not treated as merged.
+
+| Required C link or operator outcome | Track A: shipped/current source | Track B: minimum integration | Falsifier |
+| --- | --- | --- | --- |
+| Bounded whole-function decision | Goose first-party oi-kit/state-machine owns tool execution/finalization and summon runs isolated subagent context. The historical source review also identifies AdversaryInspector and Stop hooks that govern pre-tool security, not independently verified post-operation outcomes. | On independent evidence: accept an actually verified outcome, require bounded source-backed rework, or escalate as explicitly unverified without inventing success. | A subagent's separate context and a pre-tool security filter are not proof of materially independent post-operation evidence review. Existing Stop denial may be capped; hook-only control cannot be presumed fail-closed. |
+| Lawful downstream effect | Source entrypoints at crates/goose/src/agents/state_machine/session.rs and crates/goose/src/agents/platform_extensions/summon.rs | The first-party turn finalization and next action must represent REWORK/UNVERIFIED accurately; the auditor sees the effect and can never silently certify its own evidence. | Missing evidence, self-review, hook cap, stale credentials or revoked reviewer must not silently become VERIFIED; no-verifier deployment retains original behavior. |
+
+**On-top distinctness:** A subagent's separate context and a pre-tool security filter are not proof of materially independent post-operation evidence review. Existing Stop denial may be capped; hook-only control cannot be presumed fail-closed. First prefer the exact native solution; a copied supervisor abstraction is insufficient.
+
+**Source ambiguity / rights blockers:** Future source HEAD/PR changes, reviewer identity, permission of the original owner, and tests are unverified. A matched fork research write does not authorize external original actions or code changes. No evidence-free demand assumption.
+
+## 3. Minimal complete S3* first-party C construction
+
+**Required property:** A first-party S3*-specific path to install a legitimate autonomous decision owner, enforce its selected lawful alternative, and return later operational evidence.
+
+| Necessary native component or port | Existing first-party source | Smallest proposed change / integration | Legitimate owner, effect, return |
+| --- | --- | --- | --- |
+| Decision evidence and invocation | [crates/goose/src/agents/state_machine/session.rs](https://github.com/aaif-goose/goose/blob/ca949ba94c0d59679c7e7eeccfaa277076e5b9e9/crates/goose/src/agents/state_machine/session.rs) | Add opt-in source-of-reality task evidence to the actual Goose finalization seam; invoke a separately owned scoped reviewer for PASS / REWORK / UNVERIFIED and bind bounded rework or explicit unverified handoff back to the operational next turn. | a separately configured audit actor adjudicates whether a finished Goose turn's claimed real-world task outcome is supported by authoritative tool facts |
+| Bound decision and later feedback | [crates/goose/src/agents/platform_extensions/summon.rs](https://github.com/aaif-goose/goose/blob/ca949ba94c0d59679c7e7eeccfaa277076e5b9e9/crates/goose/src/agents/platform_extensions/summon.rs) | The first-party turn finalization and next action must represent REWORK/UNVERIFIED accurately; the auditor sees the effect and can never silently certify its own evidence. | On independent evidence: accept an actually verified outcome, require bounded source-backed rework, or escalate as explicitly unverified without inventing success. |
+
+**Architectural C-sufficiency argument:** Native baseline: Goose first-party oi-kit/state-machine owns tool execution/finalization and summon runs isolated subagent context. The historical source review also identifies AdversaryInspector and Stop hooks that govern pre-tool security, not independently verified post-operation outcomes. The key residual is A subagent's separate context and a pre-tool security filter are not proof of materially independent post-operation evidence review. Existing Stop denial may be capped; hook-only control cannot be presumed fail-closed. The strongest scoped optional solution is Add opt-in source-of-reality task evidence to the actual Goose finalization seam; invoke a separately owned scoped reviewer for PASS / REWORK / UNVERIFIED and bind bounded rework or explicit unverified handoff back to the operational next turn. Alternative one: use native/manual Compare existing inspection and Stop-hook behavior first; prefer a bounded native hook if it truly enforces the same observable post-turn outcome. Alternative two: avoid building if protected authority or actual feedback cannot be established. This proposal claims constructibility, not new implemented grade.
+
+**Explicit non-goals:** No unrelated function upgrades, blanket task guardian, unrequested S5 authority, generic provider dependency, automatic external PR, or forced adoption.
+
+**Implementation dependency graph:** Verify pinned current source and accepted assessment -> resolve P1 native rights/overlap/feedback proof -> implement minimal P0 only with separately authorized product work -> run native positive/negative closure tests -> reconsider adoption based on measured benefit.
+
+## 4. Priorities, optional alternative and stopping rules
+
+**P0 and P1:** P0 is Opt-in first-party evidence adapter + developer-selected independent evidence auditor + bounded verification decision and return-to-S1 via rework or explicitly unverified handoff; see AI contract P1 is verified tool/result evidence provenance, isolated reviewer identity and least-privilege evidence access, cap/resume and durable unverified-result semantics; original-native tests and legitimate policy-owner approval needed prior to implementation. Priorities are inherited, not newly changed.
+
+**P2:** broader cross-session/fleet evidence auditing only after separate source-bound demand and authority analysis. No forced second VSM function.
+
+**Alternative path:** Compare existing inspection and Stop-hook behavior first; prefer a bounded native hook if it truly enforces the same observable post-turn outcome.. Prefer this if it closes the same operator outcome with no independent C need.
+
+**Stop:** Complete native equivalence, impossible independent actor right, no enforced return, policy veto or missing indispensable evidence triggers NO_GO/BLOCKED under the parent protocol. A missing measured saving is not by itself NO_GO.
+
+## 5. Future source-native acceptance — derive tests, do not copy a matrix
+
+**Native test commands and entry points:** Goose first-party Rust agent/state-machine tests are available. No cargo test executed, no verified model or external auditor run.
+
+**Positive functional closure:** Pair claimed success with one authenticated true postcondition and one absent/failed tool result; reviewer forces different completion state and subsequent authorized rework.
+
+**Independent alternative (where applicable):** On independent evidence: accept an actually verified outcome, require bounded source-backed rework, or escalate as explicitly unverified without inventing success. A genuine owner should be able to make two lawful different choices under different bounded contexts, not simply follow an always-grant rule.
+
+**Negative authority and compatibility (where applicable):** Missing evidence, self-review, hook cap, stale credentials or revoked reviewer must not silently become VERIFIED; no-verifier deployment retains original behavior.
+
+**Matched native alternative:** Compare existing inspection and Stop-hook behavior first; prefer a bounded native hook if it truly enforces the same observable post-turn outcome. Execute the same task once with current native behavior and once with conditional construction. No results or economics have yet been collected.
+
+## 6. Proposal verdict, falsification, evidence ownership and handoff
+
 **Proposal-stage decision:** GO
+
 **Research disposition:** NEEDS_EVIDENCE
 
-[roadmap.md](roadmap.md) · [issue.md](issue.md) · [Case index](README.md). New independent proposal-stage assessment under Upstream v0.18.0; **no native implementation or Index regrade**. Original pinned `c77f95b9c5c4242cd1cb83669523d2231da75352`, accepted historical `S1=A · S2=— · S3=A · S3*=— · S4=— · S5=—` at [included Index](https://github.com/opensiro/vsm-harness-index/blob/8b6039a92b39e9ac9e02af8c9a99513d632c3684/assessments/go/goose.md), review ref `50666ae0b9a51e260b52b7efbab2e4e020346e94`, reviewed 2026-09-15. No duplication of the Human six-function table.
+**Primary falsifier:** Equivalent shipped first-party independent actual-outcome audit with autonomous reviewer ownership and binding operational feedback, or inability to persist/reify unverified outcome when stop-cap overrides a deny
 
-## Decision, independent evidence and ownership
+**Validation state:** NOT_RUN; proposal only, no native tests.
 
-**P0 scope:** not the BLOCK→approval policy issue in #13271. It is a developer-composable **complementary operational reality audit** of claimed output, based on tool effects plus bounded source-of-truth probes independently of the primary LLM's narration. **Function:** S3*; **reviewer** owns the audit judgment and evidence-return, **Goose runtime** supplies trusted evidence and enforces bounded continuation/terminal disposition, **developer/user/parent** sets policy/allowed probes and final unresolved disposition. A tool filter or prompt without independent factual access does not prove S3*.
+**Ownership of truth:** Profile owns semantics; Skills owns assessment method; Index owns historical accepted classification; original aaif-goose/goose owns product change and maintainer choice; the [roadmap.md](roadmap.md) case receipt owns these decisions.
 
-**Current Track A:** https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/crates/goose/src/security/adversary_inspector.rs receives original task/recent messages/proposed tool call through the same provider manager, with `Deny` or fail-open; https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/crates/goose/src/tool_inspection.rs combines inspection results; https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/crates/goose/src/agents/state_machine/tool_approval.rs maps to tool permission; https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/crates/goose/src/hooks/mod.rs has hook context and blocking protocols; https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/crates/goose/src/agents/state_machine/ops_stop_hook.rs returns hidden corrective message on denial but on `denials > block_cap` ends the turn. https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/crates/goose/src/agents/state_machine_builder.rs assembles oi-kit operations. This creates credible first-party attachment points, **not** a shipped independent audit guarantee.
+**Cost status:** NOT_MEASURED.
 
-**Alternative baseline A:** user-authored Stop command reading local repo state; or correct #13271 visible denial. They may help narrower tasks but a generic hook alone is not an independently owned, attributable, durable audit constructor, and stop-cap override is not verified completion. Original https://github.com/aaif-goose/goose/issues/9708 reported false completion claims and proposed a ground-truth check; closed Issue/PR #10361 not counted as product implementation.
+**Next permitted action:** Source-verify the narrow A/B comparison at current original HEAD and test scope under new explicit permission, or keep this as an unpublished research case.
 
-## Minimal first-party Track B architecture (hypothesis, not API declaration)
+**Human backlink:** [issue.md](issue.md); **case receipt:** [roadmap.md](roadmap.md).
 
-1. **Source facts:** on tool effect application capture `session_id, run_id, tool_call_id, operation, arguments digest, completion status, bounded output digest, git/file/test probe receipt` in trustworthy runtime-owned evidence. Do not accept the executing model's text as the evidence source. Make privacy and retention explicit; no secret content in public records.
-2. **Separate reviewer:** developer opts in to an isolated verifier process/provider and scoped read-only probes. The verifier can choose `PASS`, `REWORK(reason,evidence_ids)` or `ESCALATE_UNVERIFIED(reason,evidence_ids)`; an agent may not choose or revise its own reviewer policy. Claims without evidence become UNKNOWN, not PASS.
-3. **Closure:** first-party oi-kit/Goose operation integrates after effects and before recognized verified completion, returning REWORK to the next agent step through the existing corrective-message pattern; an exhausted cap, crash or stale evidence becomes an explicit durable UNVERIFIED terminal/parent decision, never a silent PASS. Existing stop-hook cap override must be guarded with independent completion-status semantics.
-4. **Return feedback:** subsequent S1 turn sees the attributable outcome and may run actual missing action or retract the claim; user sees evidence-backed final disposition. Reviewer cannot waive pre-existing binding security Deny, execute tools without scope, or change the parent S5 policy.
-
-**Required VSM C chain:** disturbance = output claim inconsistent with independently observed operation; choices = PASS/REWORK/UNVERIFIED; actor = developer-composed autonomous independent auditor; authority = parent-approved read-only review + bounded hold/return (not a new S5 policy); effect = state-machine completion gating / recorded unverified status; feedback = evidence-backed next operative turn or explicit parent escalation. With no independent reviewer installed or no trustworthy facts, no `S3*=C` claim.
-
-## Counterfactuals and falsifiers
-
-- Remove auditor while retaining hooks: same evidence-grounded audit judgment must **not** still be made; if it is, reviewer was cosmetic and the proposed `C` owner is wrong.
-- Missing/forged/stale tool facts: never mark verified; deterministic unknown/rework/parent handoff.
-- Stop blocked repeatedly: after `GOOSE_STOP_HOOK_BLOCK_CAP` is exceeded the turn may be closed, but its outcome cannot be marked VERIFIED; if closure cannot be separated, proposed C construction **fails**.
-- Parent has not delegated access: no probe or tool execution, return BLOCKED/UNVERIFIED according to legitimate policy, never invent authorization.
-- Existing current shipped first-party equivalent function-level evidence-audit owner and closure: independent proposed new constructor is redundant and this GO must be revised.
-- Reviewer loop relies only on the same model's plan/current messages without independent reality: does not close S3* as proposed.
-
-## Proposed native acceptance (not executed)
-
-| Case | Expected | Fail |
-| --- | --- | --- |
-| AC-01 | Claimed tests PASS but no executed test tool/result → REWORK/UNVERIFIED | VERIFIED |
-| AC-02 | Tool result and authoritative probe support claimed action → PASS | false REWORK |
-| AC-03 | Auditor output denies completion and next S1 turn receives concrete evidence IDs | model ends as verified without correction |
-| AC-04 | Eight plus repeated Stop denials hit configured cap → UNVERIFIED/parent escalation | cap implicitly changes negative audit to VERIFIED |
-| AC-05 | Original permission Deny persists irrespective of reviewer PASS | audit bypasses Deny |
-| AC-06 | Probe permission absent, stale evidence or reviewer timeout → bounded unknown state | hidden false PASS or unbounded hang |
-| AC-07 | Auditor unavailable, same-model-only prompt and wrong recursion boundary do not count as C | false autonomy regrade |
-| AC-08 | Resume/reload preserves evidence attribution and decision | fresh turn loses unresolved negative audit |
-
-Run after **separate authorized implementation** using Goose native targeted `cargo test -p goose`, `cargo test -p oi-kit-agent`, formatting and hook/operation integration checks appropriate to changed files; do not assert they passed now. Native tests NOT_RUN, adversarial reliability, integration cost and operator benefit NOT_MEASURED. P1 authority/provenance/cap is mandatory; P2 NONE.
-
-## Historical comparison / constraints
-
-Independent result sealed first: https://github.com/opensiro/upstream/issues/58#issuecomment-7042861025. Afterward [historical NO_GO receipt](https://github.com/opensiro-contributions/goose/blob/fabfcf43e1652aceefa6042f0b870ba36c512455/.opensiro/issues/goose-adversary-audit-20261119/roadmap.md) read; that decision emphasized a narrow native visibility problem, unmeasured extra benefit and maintainer's issue choice. Under published v0.18.0, those do not alone disprove a distinct **constructible** S3* chain. New verdict GO/NEEDS_EVIDENCE is narrow, hypothetical and reversible, not a demand to replace shipped Goose inspector or an accepted Index grade. Original https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/CONTRIBUTING.md / https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/AGENTS.md Ready/publication rights still apply. Fork owner ACTIVE/ALLOW is metadata permission only. No original/fork GitHub Issue/PR or outward communication has been published.
+**AI disclosure:** Drafted with AI; no native execution, maintainer consent, economic proof or independently verified value claimed.
