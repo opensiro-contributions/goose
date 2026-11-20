@@ -1,49 +1,51 @@
-# Goose — complementary audit and Adversary BLOCK handling: architecture roadmap (OpenSiro plan-only)
+# Goose — independent evidence-grounded completion audit (S3*) · OpenSiro PLAN_ONLY
 
-**OpenSiro pilot · PLAN_ONLY / DECISION_READY · Decision: NO_GO · DRAFT — NOT PUBLISHED.**
+**Target transition:** S3*=— -> S3*=C
+**Proposal-stage decision:** GO
+**Research disposition:** NEEDS_EVIDENCE
 
-**Two-level package:** This Human-facing roadmap and [AI/developer constructor-sufficiency contract](https://github.com/opensiro-contributions/goose/blob/opensiro/meta/.opensiro/issues/goose-adversary-audit-20261119/constructor-sufficiency.md). [Receipt](https://github.com/opensiro-contributions/goose/blob/opensiro/meta/.opensiro/issues/goose-adversary-audit-20261119/roadmap.md) · [Case index](https://github.com/opensiro-contributions/goose/blob/opensiro/meta/.opensiro/issues/goose-adversary-audit-20261119/README.md). **Working fork:** https://github.com/opensiro-contributions/goose (verified parent: aaif-goose/goose). No GitHub Issue has been published.
+This is an **unimplemented, independently testable architectural proposal**, not a claim that Goose lacks quality or that maintainers should adopt it. [Canonical receipt](roadmap.md) · [AI/developer contract](constructor-sufficiency.md) · [Case index](README.md). **Public fork Issue DRAFT — NOT PUBLISHED.**
 
-## 1. Why OpenSiro and central accepted VSM assessment
+## Why this case
 
-OpenSiro tests whether reusable, VSM-informed organizational specifications can standardize agent-harness development and reduce total implementation, integration, review, and maintenance cost. This is an *unproven cost hypothesis*, not a claim that Goose needs VSM or a request that its maintainers adopt it.
+Goose's current https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/crates/goose/src/security/adversary_inspector.rs reviews proposed tool calls using an LLM and may block them. This is not proof that a separately owned auditor verifies what actually happened, e.g., whether purported tests really ran or a claimed commit exists. The opt-in S3* construction would give a developer a way to compose that independent evidence audit *within* the first-party operation/return path, without transferring policy ownership to the reviewer.
 
-**STARTING POINT — accepted historical Index, not a target or an assessment of current main:** **S1=A · S2=— · S3=A · S3*=— · S4=— · S5=—**. [Accepted assessment](https://github.com/opensiro/vsm-harness-index/blob/34e11ec4dd52e1ba3ee0111d8bca73f13918f54f/assessments/go/goose.md); review_ref `50666ae0b9a51e260b52b7efbab2e4e020346e94`, reviewed 2026-09-15, last successful freshness check 2026-09-17, assessment blob `df07d489a966ff9f16c1e010ba65219afded14c7`; Profile 0.2.1, Methodology 0.3.1. Current original [HEAD](https://github.com/aaif-goose/goose/blob/e1967811310595f1998c962cfe3a0d4a62fa3443/README.md): `e1967811310595f1998c962cfe3a0d4a62fa3443` (observed 2026-11-19). Review age exceeds 30 days: a separate Index-owned reassessment is recommended before any new VSM classification.
+Accepted Index https://github.com/opensiro/vsm-harness-index/blob/8b6039a92b39e9ac9e02af8c9a99513d632c3684/assessments/go/goose.md (included, reviewed 2026-09-15, profile 0.2.1 / methodology 0.3.1, review_ref `50666ae0b9a51e260b52b7efbab2e4e020346e94`); historical vector **S1=A · S2=— · S3=A · S3*=— · S4=— · S5=—**. Original pinned `main@c77f95b9c5c4242cd1cb83669523d2231da75352` (2026-11-20). The historical vector is **not** a new current-HEAD assessment.
 
-| Function | Historical Index | Meaning / present research focus |
+| Function | Historical Index | Current source reading / proposal priority |
 | --- | --- | --- |
-| S1 · Operations | **A** | Agent chooses and performs its own tool work; no mandatory constructor target |
-| S2 · Coordination | **—** | No established inter-S1 interference-regulation witness; not inferred from messaging |
-| S3 · Current management | **A** | First-party top-level session orchestrator can change current session commitments; no forced A→C conversion |
-| S3* · Complementary audit | **—** | No sufficiently independent audit established at the reviewed ref; current Adversary inspector merits fresh evidence, not an automatic changed grade |
-| S4 · Future intelligence | **—** | No proven externally prospective adaptation/return loop in the historical record |
-| S5 · Policy/identity | **—** | User/developer security policy and ultimate authority are not automatically agent-owned S5 |
+| **S1 · Operations** | A | oi-kit/Goose state machine executes tools, retains messages and returns feedback; no new S1 constructor |
+| **S2 · Coordination** | — | subagents and concurrency are not sufficient evidence for conflict attenuation and closure |
+| **S3 · Current management** | A | older orchestrator witness; the current platform registry changed, so fresh Index review needed before any current claim |
+| **S3* · Complementary audit** | — | P0: independently owned, source-of-reality verification and bounded corrective return; proposed C only |
+| **S4 · Future intelligence** | — | roaming/provider support does not establish a whole-system prospective learning loop |
+| **S5 · Policy and identity** | — | legitimate policy remains with user/developer/parent, not an invented autonomous governing agent |
 
-**Boundary:** first-party supported Goose agent, tool-inspection and orchestrator modes, not arbitrary user MCP plugins, original project maintainers or a fictional new governance agent. License: Apache-2.0; [contributor rules](https://github.com/aaif-goose/goose/blob/e1967811310595f1998c962cfe3a0d4a62fa3443/CONTRIBUTING.md) require an issue in **Ready** before a non-exempt PR and contributor review of AI-generated work.
+## What changes for the user if the design is later implemented
 
-## 2. Operator outcome and terminal decision
+A Goose task may end with a confident success statement despite an independent tool-result or repository probe not supporting it (reported as an issue in [original #9708](https://github.com/aaif-goose/goose/issues/9708), now closed). An opt-in independent reviewer could distinguish **VERIFIED / REWORK / UNVERIFIED**, return a specific evidence-backed correction for another operative attempt, and on exhausted retries surface **UNVERIFIED** rather than silently allow a stop-hook cap to turn an audit failure into success.
 
-**Current need (verified):** make an Adversary reviewer BLOCK understandable to a human and to the agent without silently losing reviewer provenance. [Original issue #13271](https://github.com/aaif-goose/goose/issues/13271) documents an actual denied `curl | bash` tool invocation. The reviewer currently returns `InspectionAction::Deny`; this is a *binding* block.
+**Proposal-stage GO / NEEDS_EVIDENCE** means this first-party C chain is architecturally constructible if implemented and validated. It says nothing about whether the original maintainers want it, current necessity, or actual outcome improvements.
 
-**Decision: NO_GO now on a new OpenSiro S3*=C constructor or an approval-override feature.** The native Goose issue already owns the narrower user problem. In its 2026-11-12 comment the maintainer explicitly chose to keep BLOCK binding, expose the reason to users and agents, and discuss any override separately. [PR #13272](https://github.com/aaif-goose/goose/pull/13272) proposed `RequireApproval` but was **closed without merge**. Review identified a headless Auto-mode auto-approval path and potential loss of reason when EgressInspector precedes AdversaryInspector. Adding a second review architecture now would duplicate work and risk changing the intended security authority.
+## Shipped paths, original work and alternatives
 
-**P0:** proposed generic independent S3* reviewer constructor — **NOT ADMITTED**, no demonstrated extra operator outcome beyond the existing native work.  
-**P1:** keep the source-native issue #13271 as the only tracked design route for binding BLOCK + visible reason; *no OpenSiro implementation or PR authorized*.  
-**P2:** NONE; no independent second capability justified.
+- Goose currently ships first-party AdversaryInspector, tool inspection/permission routing, configurable before/after tool hooks, and https://github.com/aaif-goose/goose/blob/c77f95b9c5c4242cd1cb83669523d2231da75352/crates/goose/src/agents/state_machine/ops_stop_hook.rs stop/rework (with a bounded cap). These are important reuse points but not an established closed independent evidence audit at the declared boundary.
+- [Original #13271](https://github.com/aaif-goose/goose/issues/13271) is OPEN and addresses BLOCK reason/permission behavior. [PR #13272](https://github.com/aaif-goose/goose/pull/13272) is CLOSED UNMERGED. Fixing that issue is useful **independently**; it neither proves nor vetoes the S3* constructor.
+- [Original #9708](https://github.com/aaif-goose/goose/issues/9708) is CLOSED and [PR #10361](https://github.com/aaif-goose/goose/pull/10361) for tool trace/advise was CLOSED UNMERGED. Treat their proposals as design context, not shipped behavior. Original [#13397](https://github.com/aaif-goose/goose/issues/13397) and [PR #13405](https://github.com/aaif-goose/goose/pull/13405) concern security decision telemetry (PR OPEN).
+- Minimal user-authored Stop hook with live probes remains baseline A. B adds a reusable, developer-composable independent decision actor, trusted provenance and explicit bounded effect; the future side-by-side test decides whether it is materially different.
 
-## 3. Native coverage vs actual gap
+## P0, P1, P2 and acceptance
 
-- **SHIPPED at current HEAD:** [AdversaryInspector](https://github.com/aaif-goose/goose/blob/e1967811310595f1998c962cfe3a0d4a62fa3443/crates/goose/src/security/adversary_inspector.rs) with a model reviewer and `Deny` for BLOCK; [inspector-result routing](https://github.com/aaif-goose/goose/blob/e1967811310595f1998c962cfe3a0d4a62fa3443/crates/goose/src/tool_inspection.rs); [service registration](https://github.com/aaif-goose/goose/blob/e1967811310595f1998c962cfe3a0d4a62fa3443/crates/goose/src/agents/services.rs); first-party [tests](https://github.com/aaif-goose/goose/blob/e1967811310595f1998c962cfe3a0d4a62fa3443/crates/goose/tests/adversary_inspector_tests.rs).
-- **ISSUE_ONLY:** #13271 has maintainer-supported binding-block-with-visible-reason direction, but is not an accepted implementation.
-- **CLOSED_UNMERGED:** #13272 cannot be counted as shipped or an active implementation candidate.
-- **Residual need:** the visibility/attribution of a lawful block in interactive and headless modes; not evidence of a new independent developer-composable audit decision owner.
+**P0:** Optional first-party adapter between trusted execution facts and independent reviewer with binding audit feedback into following S1 operation; complete developer contract in [constructor-sufficiency.md](constructor-sufficiency.md). No product work authorized.
 
-## 4. Minimum sufficient next action and stop gates
+**P1:** Evidence trust boundary, distinct auditor identity, cap/resume/unverified status semantics, legitimate owner scope and native tests. Negative: a false claimed test/commit cannot become VERIFIED; auditor absence or stale evidence does not fabricate PASS; existing user permission or security denial is never silently relaxed.
 
-Use the original issue's **Accepted / design → Ready** workflow. Any later native patch must preserve non-overridable BLOCK, present its reviewer reason to the user, return a distinguishable rejection to the agent, respect inspector precedence, and prove that headless Auto mode cannot execute a blocked call. See [AI test/authority contract](https://github.com/opensiro-contributions/goose/blob/opensiro/meta/.opensiro/issues/goose-adversary-audit-20261119/constructor-sufficiency.md). Do not ship a generic C constructor, force an override, publish a new original issue, reopen #13272, or claim a new Index grade on the strength of this plan.
+**P2:** None for this scoped case.
 
-**Independent choices:** (a) resolve the native design in #13271 if maintainers later move it to Ready; (b) separately reassess current Goose evidence through Index/Skills; (c) evaluate a domain fork only under another explicit scope and rights decision. These are alternatives, not concurrent tasks.
+**Falsifier:** current code already ships equivalent first-party independent outcome-audit ownership/closure, or the proposed adapter cannot lawfully get trusted evidence and make a negative decision change subsequent completion. Native tests **NOT_RUN**; product desirability, cost and measured benefit **UNKNOWN / NOT_MEASURED**.
 
-**Cost hypothesis:** compare equal native vs VSM-informed solutions by implementation + review + tests + maintenance and acceptance quality. **NOT_MEASURED**, no cost savings established.
+## Historical comparison and publication
 
-**Publications:** fork Issue and third-party original Issue/PR **NOT PUBLISHED**. This exact Human text is a proposed public fork Issue body only, pending *separate current-conversation owner approval*. Fork metadata is stored on the isolated `opensiro/meta` branch and starts at **PAUSE/DORMANT**; no RESUME or product work follows.
+Source-first new-wave decision sealed in [Upstream #58](https://github.com/opensiro/upstream/issues/58#issuecomment-7042861025) before full historical case review. The [frozen 2026-11-19 NO_GO receipt](https://github.com/opensiro-contributions/goose/blob/fabfcf43e1652aceefa6042f0b870ba36c512455/.opensiro/issues/goose-adversary-audit-20261119/roadmap.md) excluded a new constructor largely on missing benefit and overlap with a native visibility fix; the published v0.18.0 neutrality rule now distinguishes *architectural constructibility* from *maintainer product decision*. This is **NO_GO → GO** on the scoped proposal, **not** an assessment grade change or automatic product recommendation.
+
+Working fork: https://github.com/opensiro-contributions/goose, verified parent aaif-goose/goose, .opensiro on separate metadata branch with ACTIVE/ALLOW. Original maintainers decide adoption. No external original Issue/PR, public fork Issue or code patch is authorized. **This complete text is a draft for an optional public fork Issue and requires its own exact current-conversation publication approval; not published.**

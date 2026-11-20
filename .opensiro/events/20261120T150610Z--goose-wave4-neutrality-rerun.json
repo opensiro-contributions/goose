@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "20261120T150610Z--goose-wave4-neutrality-rerun",
+  "recorded_at": "2026-11-20T15:06:10Z",
+  "actor": "OpenSiro #58 user-directed independent roadmap operator",
+  "kind": "REVIEW",
+  "decision": "GO / NEEDS_EVIDENCE (proposal-stage; supersedes case decision only)",
+  "original_repository": "aaif-goose/goose",
+  "working_fork": "opensiro-contributions/goose",
+  "case_id": "goose-adversary-audit-20261119",
+  "owner_control": "ALLOW",
+  "attention": "ACTIVE",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/58#issuecomment-7042861025",
+    "https://github.com/aaif-goose/goose/commit/c77f95b9c5c4242cd1cb83669523d2231da75352",
+    "https://github.com/opensiro/vsm-harness-index/blob/8b6039a92b39e9ac9e02af8c9a99513d632c3684/assessments/go/goose.md"
+  ],
+  "note": "Wave 4 assessment-neutral independent source-first rerun. Historical NO_GO preserved at prior commit; no implementation, Index regrade, external publication or native test claim.",
+  "next_action": "Validate minimal source-grounded independent S3* evidence audit with proper rights/tests; original product decision remains with maintainer."
+}
