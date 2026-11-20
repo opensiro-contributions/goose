@@ -4,7 +4,7 @@
 **Proposal-stage decision:** GO
 **Research disposition:** NEEDS_EVIDENCE
 
-[Canonical roadmap receipt](roadmap.md) · [Human issue draft](issue.md) · [Case index](README.md). New independent proposal-stage assessment under Upstream v0.18.0; **no native implementation or Index regrade**. Original pinned `c77f95b9c5c4242cd1cb83669523d2231da75352`, accepted historical `S1=A · S2=— · S3=A · S3*=— · S4=— · S5=—` at [included Index](https://github.com/opensiro/vsm-harness-index/blob/8b6039a92b39e9ac9e02af8c9a99513d632c3684/assessments/go/goose.md), review ref `50666ae0b9a51e260b52b7efbab2e4e020346e94`, reviewed 2026-09-15. No duplication of the Human six-function table.
+[roadmap.md](roadmap.md) · [issue.md](issue.md) · [Case index](README.md). New independent proposal-stage assessment under Upstream v0.18.0; **no native implementation or Index regrade**. Original pinned `c77f95b9c5c4242cd1cb83669523d2231da75352`, accepted historical `S1=A · S2=— · S3=A · S3*=— · S4=— · S5=—` at [included Index](https://github.com/opensiro/vsm-harness-index/blob/8b6039a92b39e9ac9e02af8c9a99513d632c3684/assessments/go/goose.md), review ref `50666ae0b9a51e260b52b7efbab2e4e020346e94`, reviewed 2026-09-15. No duplication of the Human six-function table.
 
 ## Decision, independent evidence and ownership
 

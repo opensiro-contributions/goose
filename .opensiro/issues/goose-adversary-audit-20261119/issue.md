@@ -4,7 +4,7 @@
 **Proposal-stage decision:** GO
 **Research disposition:** NEEDS_EVIDENCE
 
-This is an **unimplemented, independently testable architectural proposal**, not a claim that Goose lacks quality or that maintainers should adopt it. [Canonical receipt](roadmap.md) · [AI/developer contract](constructor-sufficiency.md) · [Case index](README.md). **Public fork Issue DRAFT — NOT PUBLISHED.**
+This is an **unimplemented, independently testable architectural proposal**, not a claim that Goose lacks quality or that maintainers should adopt it. [roadmap.md](roadmap.md) · [AI/developer contract](constructor-sufficiency.md) · [Case index](README.md). **Public fork Issue DRAFT — NOT PUBLISHED.**
 
 ## Why this case
 
